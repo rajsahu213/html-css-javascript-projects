@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(7, 119, 247);
+  color: darkblue;
+  font-family: Arial;
+}
+
+#form-div h1 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  border-color: rgb(7, 119, 247);
+  size: 10em;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(7, 119, 247);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#form-div {
+  width: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(83, 162, 252);
+  border-radius: 5px;
+  position: static;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: rgb(136, 217, 255);
+}
+
+hr {
+  margin: 20px;
+  position: relative;
+}
+
+#tweet-list {
+  color: black;
+  padding-left: 15px;
+}
+
+#tweet-list h1 {
+  color: lightcyan;
+}
+
+.tweet {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(180, 235, 253);
+  margin: 10px;
+  margin-right: 25px;
+}
